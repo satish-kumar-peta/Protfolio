@@ -1,0 +1,287 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Satish Kumar | Frontend Developer</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+      <link rel="stylesheet" href="p32.css">
+    </head>
+    <body>
+      <div class="loader">
+        <div class="loader-content">
+          <h2>Loading Experience</h2>
+          <div class="loader-bar">
+            <div class="loader-progress"></div>
+          </div>
+          <p>Please wait...</p>
+        </div>
+      </div>
+    
+      <div id="canvas-container"></div>
+      
+      <header class="header">
+        <a href="#" class="logo">Satish<span>Kumar</span></a>
+        <div class="mobile-menu-btn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="hero-subtitle">Hello, I'm</p>
+          <h1 class="hero-title">Satish Kumar Peta</h1>
+          <p class="hero-description">A passionate Frontend Developer with experience in creating responsive user interfaces and interactive web applications.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="scroll-down">
+          <span>Scroll Down</span>
+          <i>↓</i>
+        </div>
+      </section>
+      
+      <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p style="text-align: center; max-width: 800px; margin: 0 auto; line-height: 1.8;">
+            I'm a motivated Computer Science student specializing in IT and software development with strong analytical and problem-solving skills. 
+            Currently pursuing B.Sc MCSAIR at Aditya Degree College, I've gained extensive experience in both backend and frontend development.
+            As a Frontend Developer intern at ADHOC, I focus on creating user-friendly interfaces and optimizing web applications using HTML, CSS, JavaScript, and PHP.
+            I'm passionate about building innovative solutions that deliver exceptional user experiences.
+          </p>
+        </div>
+      </section>
+      
+      <section class="section" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills">
+          <div class="skill-card">
+            <div class="skill-icon">📱</div>
+            <h3 class="skill-name">HTML</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3 class="skill-name">CSS</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">⚙️</div>
+            <h3 class="skill-name">JavaScript</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🐍</div>
+            <h3 class="skill-name">Python</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🧠</div>
+            <h3 class="skill-name">C</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <h3 class="skill-name">Power BI</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 65%;"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🤖</div>
+            <h3 class="skill-name">UiPath</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">📋</div>
+            <h3 class="skill-name">PHP</h3>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 65%;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects">
+          <div class="project-card">
+            <div class="project-image">🔤 Easy Letter</div>
+            <div class="project-content">
+              <h3 class="project-title">Easy Letter Generator</h3>
+              <p class="project-description">A web application to generate formatted letters (leave, permission, etc.) quickly for students and professionals.</p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <a href="#" class="btn" style="width: 100%;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">📊 Result Extraction</div>
+            <div class="project-content">
+              <h3 class="project-title">Result Extraction Tool</h3>
+              <p class="project-description">A robust automation solution to extract semester results efficiently for academic institutions.</p>
+              <div class="project-tags">
+                <span class="project-tag">UiPath</span>
+                <span class="project-tag">Automation</span>
+                <span class="project-tag">Data Processing</span>
+              </div>
+              <a href="#" class="btn" style="width: 100%;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">📈 Data Analytics</div>
+            <div class="project-content">
+              <h3 class="project-title">Interactive Dashboard</h3>
+              <p class="project-description">Created an interactive dashboard to analyze customer demographics, trends, and behaviors for business insights.</p>
+              <div class="project-tags">
+                <span class="project-tag">Power BI</span>
+                <span class="project-tag">Data Analytics</span>
+                <span class="project-tag">Visualization</span>
+              </div>
+              <a href="#" class="btn" style="width: 100%;">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">📊 Flask App</div>
+            <div class="project-content">
+              <h3 class="project-title">Flask Data Visualization</h3>
+              <p class="project-description">A Flask-based web app to visualize student performance data using Matplotlib and Pandas with interactive charts.</p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Flask</span>
+                <span class="project-tag">Matplotlib</span>
+                <span class="project-tag">Pandas</span>
+              </div>
+              <a href="#" class="btn" style="width: 100%;">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Current</p>
+              <h3 class="timeline-title">Frontend Developer Intern</h3>
+              <p class="timeline-company">ADHOC Company</p>
+              <p>
+                Developing responsive and dynamic web applications using HTML, CSS, JavaScript, and PHP.
+                Focusing on creating user-friendly interfaces and optimizing performance for seamless user experiences.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">Previous</p>
+              <h3 class="timeline-title">AI/ML Intern</h3>
+              <p class="timeline-company">U-LEARN</p>
+              <p>
+                Gained hands-on experience in Artificial Intelligence and Machine Learning concepts and tools.
+                Explored algorithms to build a strong foundation in these emerging technologies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="achievements">
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievement-cards">
+          <div class="achievement-card">
+            <div class="achievement-icon">🥉</div>
+            <h3 class="achievement-title">BRONZE Medal in CodeChef</h3>
+            <p class="achievement-description">Secured a Bronze Medal in CodeChef during the 3rd year of graduation, showcasing strong problem-solving and coding skills.</p>
+          </div>
+          <div class="achievement-card">
+            <div class="achievement-icon">⭐</div>
+            <h3 class="achievement-title">3 Star in Python on HackerRank</h3>
+            <p class="achievement-description">Achieved 3-star certification in Python on HackerRank, demonstrating proficiency in Python programming.</p>
+          </div>
+          <div class="achievement-card">
+            <div class="achievement-icon">🏆</div>
+            <h3 class="achievement-title">1st Prize in ROBO RACE 2K23</h3>
+            <p class="achievement-description">Won 1st prize in the RoboRace event among 13 campuses by designing and building an IoT-embedded car.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+        </form>
+        
+        <div class="contact-info">
+          <div class="contact-item">
+            <i>📧</i>
+            <span>contact@satishkumar.com</span>
+          </div>
+          <div class="contact-item">
+            <i>📱</i>
+            <span>+91 9876543210</span>
+          </div>
+          <div class="contact-item">
+            <i>📍</i>
+            <span>Hyderabad, India</span>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="social-links">
+          <a href="#" class="social-link"><i>📱</i></a>
+          <a href="#" class="social-link"><i>🐦</i></a>
+          <a href="#" class="social-link"><i>💼</i></a>
+          <a href="#" class="social-link"><i>📸</i></a>
+        </div>
+        <p class="copyright">&copy; 2025 Satish Kumar. All rights reserved.</p>
+      </footer>
+      <script src="p3.js"></script>
+    </body>
+    </html>
